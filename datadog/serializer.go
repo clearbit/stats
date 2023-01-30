@@ -2,6 +2,7 @@ package datadog
 
 import (
 	"bytes"
+	"github.com/clearbit/stats/v4"
 	"io"
 	"log"
 	"math"
@@ -9,8 +10,6 @@ import (
 	"strconv"
 	"strings"
 	"time"
-
-	"github.com/segmentio/stats/v4"
 )
 
 // Datagram format: https://docs.datadoghq.com/developers/dogstatsd/datagram_shell

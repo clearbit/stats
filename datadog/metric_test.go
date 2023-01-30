@@ -1,9 +1,8 @@
 package datadog
 
 import (
+	"github.com/clearbit/stats/v4"
 	"testing"
-
-	"github.com/segmentio/stats/v4"
 )
 
 var testMetrics = []struct {

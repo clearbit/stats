@@ -1,11 +1,11 @@
 package stats_test
 
 import (
+	"github.com/clearbit/stats/v4"
 	"testing"
 	"time"
 
-	"github.com/segmentio/stats/v4"
-	"github.com/segmentio/stats/v4/statstest"
+	"github.com/clearbit/stats/v4/statstest"
 
 	"github.com/stretchr/testify/assert"
 )

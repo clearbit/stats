@@ -6,7 +6,7 @@ import (
 )
 
 func TestGetProcLimits(t *testing.T) {
-	if _, err := GetProcLimits(os.Getpid()); err == nil {
+	if _, err := ReadProcLimits(os.Getpid()); err == nil {
 		t.Error("GetProcLimits should have failed on Darwin")
 	}
 }

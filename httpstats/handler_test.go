@@ -1,14 +1,14 @@
 package httpstats
 
 import (
+	"github.com/clearbit/stats/v4"
 	"io/ioutil"
 	"net/http"
 	"net/http/httptest"
 	"strings"
 	"testing"
 
-	"github.com/segmentio/stats/v4"
-	"github.com/segmentio/stats/v4/statstest"
+	"github.com/clearbit/stats/v4/statstest"
 )
 
 func TestHandler(t *testing.T) {

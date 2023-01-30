@@ -1,6 +1,7 @@
 package procstats_test
 
 import (
+	"github.com/clearbit/stats/v4"
 	"io/ioutil"
 	"math/rand"
 	"os"
@@ -9,9 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/segmentio/stats/v4"
-	"github.com/segmentio/stats/v4/procstats"
-	"github.com/segmentio/stats/v4/statstest"
+	"github.com/clearbit/stats/v4/procstats"
+	"github.com/clearbit/stats/v4/statstest"
 )
 
 func TestProcMetrics(t *testing.T) {

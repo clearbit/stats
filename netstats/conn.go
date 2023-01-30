@@ -1,6 +1,7 @@
 package netstats
 
 import (
+	"github.com/clearbit/stats/v4"
 	"io"
 	"math"
 	"net"
@@ -8,7 +9,6 @@ import (
 	"sync"
 	"time"
 
-	"github.com/segmentio/stats/v4"
 	"github.com/segmentio/vpcinfo"
 )
 

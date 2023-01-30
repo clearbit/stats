@@ -2,6 +2,7 @@ package datadog
 
 import (
 	"fmt"
+	"github.com/clearbit/stats/v4"
 	"io"
 	"io/ioutil"
 	"log"
@@ -11,7 +12,6 @@ import (
 	"testing"
 	"time"
 
-	"github.com/segmentio/stats/v4"
 	"github.com/stretchr/testify/assert"
 )
 

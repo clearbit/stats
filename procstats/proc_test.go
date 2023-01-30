@@ -1,14 +1,17 @@
+//go:build linux
+// +build linux
+
 package procstats
 
 import (
+	"github.com/clearbit/stats/v4"
 	"io/ioutil"
 	"os"
 	"os/exec"
 	"testing"
 	"time"
 
-	"github.com/segmentio/stats/v4"
-	"github.com/segmentio/stats/v4/statstest"
+	"github.com/clearbit/stats/v4/statstest"
 )
 
 func TestProcMetrics(t *testing.T) {

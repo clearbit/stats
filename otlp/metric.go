@@ -4,8 +4,6 @@ import (
 	"hash/maphash"
 	"sort"
 	"time"
-
-	"github.com/segmentio/stats/v4"
 )
 
 type metric struct {

@@ -1,13 +1,12 @@
 package datadog
 
 import (
+	"github.com/clearbit/stats/v4"
 	"io"
 	"net"
 	"sync/atomic"
 	"testing"
 	"time"
-
-	"github.com/segmentio/stats/v4"
 )
 
 func TestServer(t *testing.T) {

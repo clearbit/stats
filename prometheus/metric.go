@@ -1,14 +1,13 @@
 package prometheus
 
 import (
+	"github.com/clearbit/stats/v4"
 	"reflect"
 	"strconv"
 	"strings"
 	"sync"
 	"time"
 	"unsafe"
-
-	"github.com/segmentio/stats/v4"
 )
 
 type metricType int

@@ -2,10 +2,9 @@ package datadog
 
 import (
 	"fmt"
+	"github.com/clearbit/stats/v4"
 	"strconv"
 	"strings"
-
-	"github.com/segmentio/stats/v4"
 )
 
 // Adapted from https://github.com/DataDog/datadog-agent/blob/6789e98a1e41e98700fa1783df62238bb23cb454/pkg/dogstatsd/parser.go#L141

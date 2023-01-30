@@ -2,6 +2,7 @@ package prometheus
 
 import (
 	"compress/gzip"
+	"github.com/clearbit/stats/v4"
 	"io"
 	"net/http"
 	"sort"
@@ -9,8 +10,6 @@ import (
 	"sync"
 	"sync/atomic"
 	"time"
-
-	"github.com/segmentio/stats/v4"
 )
 
 // Handler is a type that bridges the stats API to a prometheus-compatible HTTP

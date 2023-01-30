@@ -1,10 +1,9 @@
 package veneur
 
 import (
+	"github.com/clearbit/stats/v4"
 	"testing"
 	"time"
-
-	"github.com/segmentio/stats/v4"
 )
 
 func TestClient(t *testing.T) {

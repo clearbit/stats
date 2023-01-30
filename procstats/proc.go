@@ -1,11 +1,10 @@
 package procstats
 
 import (
+	"github.com/clearbit/stats/v4"
 	"os"
 	"runtime"
 	"time"
-
-	"github.com/segmentio/stats/v4"
 )
 
 // ProcMetrics is a metric collector that reports metrics on processes.
@@ -180,7 +179,6 @@ func (p *ProcMetrics) Collect() {
 	}
 }
 
-
 // ProcInfo contains types which hold statistics for various resources
 type ProcInfo struct {
 	CPU     CPUInfo
@@ -229,6 +227,7 @@ type FileInfo struct {
 	Open uint64 // fds opened by the process
 	Max  uint64 // max number of fds the process can open
 }
+
 // ThreadInfo holds statistics about number of threads and context switches for a process.
 type ThreadInfo struct {
 	Num                        uint64

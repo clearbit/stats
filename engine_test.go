@@ -1,6 +1,7 @@
 package stats_test
 
 import (
+	"github.com/clearbit/stats/v4"
 	"io/ioutil"
 	"net/http"
 	"reflect"
@@ -8,11 +9,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/segmentio/stats/v4"
-	"github.com/segmentio/stats/v4/datadog"
-	"github.com/segmentio/stats/v4/influxdb"
-	"github.com/segmentio/stats/v4/prometheus"
-	"github.com/segmentio/stats/v4/statstest"
+	"github.com/clearbit/stats/v4/datadog"
+	"github.com/clearbit/stats/v4/influxdb"
+	"github.com/clearbit/stats/v4/prometheus"
+	"github.com/clearbit/stats/v4/statstest"
 )
 
 func TestEngine(t *testing.T) {

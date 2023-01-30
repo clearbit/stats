@@ -6,7 +6,7 @@ import (
 )
 
 func TestGetProcSched(t *testing.T) {
-	if _, err := GetProcSched(os.Getpid()); err == nil {
+	if _, err := ReadProcSched(os.Getpid()); err == nil {
 		t.Error("GetProcSched should have failed on Darwin")
 	}
 }

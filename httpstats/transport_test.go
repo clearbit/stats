@@ -1,6 +1,7 @@
 package httpstats
 
 import (
+	"github.com/clearbit/stats/v4"
 	"io"
 	"io/ioutil"
 	"net/http"
@@ -8,8 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/segmentio/stats/v4"
-	"github.com/segmentio/stats/v4/statstest"
+	"github.com/clearbit/stats/v4/statstest"
 )
 
 func TestTransport(t *testing.T) {

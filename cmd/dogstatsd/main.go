@@ -4,6 +4,7 @@ import (
 	"bytes"
 	"flag"
 	"fmt"
+	"github.com/clearbit/stats/v4"
 	"log"
 	"net"
 	"os"
@@ -12,8 +13,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/segmentio/stats/v4"
-	"github.com/segmentio/stats/v4/datadog"
+	"github.com/clearbit/stats/v4/datadog"
 )
 
 func main() {

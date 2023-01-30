@@ -1,10 +1,9 @@
 package procstats
 
 import (
+	"github.com/clearbit/stats/v4"
 	"os"
 	"time"
-
-	"github.com/segmentio/stats/v4"
 )
 
 // DelayMetrics is a metric collector that reports resource delays on processes.
@@ -40,7 +39,6 @@ func (d *DelayMetrics) Collect() {
 		d.engine.Report(d)
 	}
 }
-
 
 // DelayInfo stores delay Durations for various resources.
 type DelayInfo struct {

@@ -1,14 +1,13 @@
 package prometheus
 
 import (
+	"github.com/clearbit/stats/v4"
 	"math"
 	"reflect"
 	"sort"
 	"sync"
 	"testing"
 	"time"
-
-	"github.com/segmentio/stats/v4"
 )
 
 func TestUnsafeByteSliceToString(t *testing.T) {
