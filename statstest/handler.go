@@ -1,11 +1,10 @@
 package statstest
 
 import (
+	"github.com/clearbit/stats/v4"
 	"sync"
 	"sync/atomic"
 	"time"
-
-	"github.com/segmentio/stats/v4"
 )
 
 var _ stats.Handler = (*Handler)(nil)

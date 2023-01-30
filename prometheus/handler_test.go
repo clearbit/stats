@@ -2,13 +2,12 @@ package prometheus
 
 import (
 	"fmt"
+	"github.com/clearbit/stats/v4"
 	"io/ioutil"
 	"net/http"
 	"net/http/httptest"
 	"testing"
 	"time"
-
-	"github.com/segmentio/stats/v4"
 )
 
 func TestAcceptEncoding(t *testing.T) {

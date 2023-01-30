@@ -6,7 +6,7 @@ import (
 )
 
 func TestGetProcStat(t *testing.T) {
-	if _, err := GetProcStat(os.Getpid()); err == nil {
+	if _, err := ReadProcStat(os.Getpid()); err == nil {
 		t.Error("GetProcStat should have failed on Darwin")
 	}
 }

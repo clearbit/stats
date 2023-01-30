@@ -2,13 +2,12 @@ package influxdb
 
 import (
 	"fmt"
+	"github.com/clearbit/stats/v4"
 	"io/ioutil"
 	"net/http"
 	"strings"
 	"testing"
 	"time"
-
-	"github.com/segmentio/stats/v4"
 )
 
 func DisabledTestClient(t *testing.T) {

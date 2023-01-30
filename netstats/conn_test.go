@@ -3,14 +3,14 @@ package netstats
 import (
 	"bytes"
 	"errors"
+	"github.com/clearbit/stats/v4"
 	"io"
 	"net"
 	"reflect"
 	"testing"
 	"time"
 
-	"github.com/segmentio/stats/v4"
-	"github.com/segmentio/stats/v4/statstest"
+	"github.com/clearbit/stats/v4/statstest"
 )
 
 func TestBaseConn(t *testing.T) {

@@ -2,11 +2,10 @@ package httpstats
 
 import (
 	"bufio"
+	"github.com/clearbit/stats/v4"
 	"net"
 	"net/http"
 	"time"
-
-	"github.com/segmentio/stats/v4"
 )
 
 // NewHandler wraps h to produce metrics on the default engine for every request

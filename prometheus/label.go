@@ -1,8 +1,8 @@
 package prometheus
 
 import (
+	"github.com/clearbit/stats/v4"
 	"github.com/segmentio/fasthash/jody"
-	"github.com/segmentio/stats/v4"
 )
 
 type label struct {

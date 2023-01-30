@@ -1,10 +1,9 @@
 package datadog
 
 import (
+	"github.com/clearbit/stats/v4"
 	"strconv"
 	"strings"
-
-	"github.com/segmentio/stats/v4"
 )
 
 func appendMetric(b []byte, m Metric) []byte {

@@ -1,9 +1,8 @@
 package httpstats
 
 import (
+	"github.com/clearbit/stats/v4"
 	"net/http"
-
-	"github.com/segmentio/stats/v4"
 )
 
 // RequestWithTags returns a shallow copy of req with its context updated to

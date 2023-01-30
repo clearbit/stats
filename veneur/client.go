@@ -1,10 +1,10 @@
 package veneur
 
 import (
+	"github.com/clearbit/stats/v4"
 	"time"
 
-	"github.com/segmentio/stats/v4"
-	"github.com/segmentio/stats/v4/datadog"
+	"github.com/clearbit/stats/v4/datadog"
 )
 
 // Const Sink Configuration types

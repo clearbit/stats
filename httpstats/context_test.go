@@ -2,11 +2,11 @@ package httpstats
 
 import (
 	"context"
+	"github.com/clearbit/stats/v4"
 	"net/http"
 	"net/http/httptest"
 	"testing"
 
-	"github.com/segmentio/stats/v4"
 	"github.com/stretchr/testify/assert"
 )
 

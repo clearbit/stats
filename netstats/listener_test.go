@@ -1,12 +1,12 @@
 package netstats
 
 import (
+	"github.com/clearbit/stats/v4"
 	"net"
 	"reflect"
 	"testing"
 
-	"github.com/segmentio/stats/v4"
-	"github.com/segmentio/stats/v4/statstest"
+	"github.com/clearbit/stats/v4/statstest"
 )
 
 func TestListener(t *testing.T) {

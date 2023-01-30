@@ -2,9 +2,8 @@ package netstats
 
 import (
 	"context"
+	"github.com/clearbit/stats/v4"
 	"net"
-
-	"github.com/segmentio/stats/v4"
 )
 
 // Handler is an interface that can be implemented by types that serve network

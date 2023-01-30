@@ -2,9 +2,8 @@ package datadog
 
 import (
 	"fmt"
+	"github.com/clearbit/stats/v4"
 	"sync"
-
-	"github.com/segmentio/stats/v4"
 )
 
 // MetricType is an enumeration providing symbols to represent the different

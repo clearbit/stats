@@ -1,11 +1,10 @@
 package procstats
 
 import (
+	"github.com/clearbit/stats/v4"
 	"math"
 	"runtime"
 	"time"
-
-	"github.com/segmentio/stats/v4"
 )
 
 func init() {

@@ -4,6 +4,7 @@ import (
 	"bytes"
 	"context"
 	"fmt"
+	"github.com/clearbit/stats/v4"
 	"io"
 	"io/ioutil"
 	"log"
@@ -14,7 +15,6 @@ import (
 	"time"
 
 	"github.com/segmentio/objconv/json"
-	"github.com/segmentio/stats/v4"
 )
 
 const (

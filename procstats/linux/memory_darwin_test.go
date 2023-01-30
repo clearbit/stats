@@ -6,7 +6,7 @@ import (
 )
 
 func TestGetMemoryLimit(t *testing.T) {
-	if limit, err := GetMemoryLimit(os.Getpid()); err != nil || limit != unlimitedMemoryLimit {
+	if limit, err := ReadMemoryLimit(os.Getpid()); err != nil || limit != unlimitedMemoryLimit {
 		t.Error("memory should be unlimited on darwin")
 	}
 }

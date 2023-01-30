@@ -1,10 +1,9 @@
 package netstats
 
 import (
+	"github.com/clearbit/stats/v4"
 	"net"
 	"sync/atomic"
-
-	"github.com/segmentio/stats/v4"
 )
 
 // NewListener returns a new net.Listener which uses the stats.DefaultEngine.

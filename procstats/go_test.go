@@ -1,12 +1,12 @@
 package procstats
 
 import (
+	"github.com/clearbit/stats/v4"
 	"runtime"
 	"testing"
 	"time"
 
-	"github.com/segmentio/stats/v4"
-	"github.com/segmentio/stats/v4/statstest"
+	"github.com/clearbit/stats/v4/statstest"
 )
 
 func TestGoMetrics(t *testing.T) {

@@ -1,6 +1,7 @@
 package httpstats
 
 import (
+	"github.com/clearbit/stats/v4"
 	"io"
 	"math"
 	"net/http"
@@ -9,8 +10,6 @@ import (
 	"strings"
 	"sync"
 	"time"
-
-	"github.com/segmentio/stats/v4"
 )
 
 func init() {

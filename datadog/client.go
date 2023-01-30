@@ -1,13 +1,12 @@
 package datadog
 
 import (
+	"github.com/clearbit/stats/v4"
 	"log"
 	"net"
 	"os"
 	"syscall"
 	"time"
-
-	"github.com/segmentio/stats/v4"
 )
 
 const (
